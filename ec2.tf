@@ -5,6 +5,6 @@ resource "aws_instance" "example" {
   subnet_id = "subnet-02544383bc5c0a096"
   security_groups = ["sg-07b1c21dbad6152da"]
   tags = {
-    "Name" = "ralf-demo"
+    "Name" = "ralftest-2"
   }
 }
